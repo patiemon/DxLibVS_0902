@@ -57,8 +57,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		//▲▲▲▲▲ プログラム追加ここまで ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
 
-		巾着（0、0、"動画を再生しています···" 、GETCOLOR（255、255、255））;
-		drawstring（0,20,"猫の動画" (255、255、255) );
+		Drawstring(0,0,"動画を再生しています···", GETCOLOR(255,255,255));
+		Drawstring(0,20,"猫の動画" (255,255,255) );
 　
 		ScreenFlip（）		//モニタのリフレッシュレートの速さで裏画面を再描画
 	}
